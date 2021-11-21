@@ -1,0 +1,20 @@
+apiVersion: extensions/v1
+kind: Ingress
+metadata:
+  name: ${name}
+  labels:
+    app: ${name}
+  annotations:
+    ingress.kubernetes.io/ssl-redirect: "false"
+    traefik.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+  - http:
+      paths:
+      - host: ${url}
+        path: /
+        backend:
+          service:
+            name: ${name}
+            port:
+              number: ${port}
