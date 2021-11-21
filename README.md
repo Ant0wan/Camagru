@@ -6,8 +6,8 @@
 
 Element    |  Stack
 ---        | ---
+App        | HTML, CSS, JavaScript
+Server     | Rust
 Cluster    | K3d
 CD         | ArgoCD
 CI         | Gitlab
-App        | HTML, CSS, JavaScript
-Server     | Rust
