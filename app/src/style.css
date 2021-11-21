@@ -96,6 +96,12 @@ body {
 	padding-right: 0;
 	display: flex;
 	align-items: center;
+	overflow: hidden;
+	overflow-x: auto;
+}
+/* Does not fix the ugly scrollbar on Firefox*/
+.status-wrapper::-webkit-scrollbar{
+	display: none;
 }
 .status-card {
 	flex: 0 0 auto;
@@ -113,7 +119,6 @@ body {
 	overflow: hidden;
 	padding: 3px;
 	background: #fafafa;
-/*	background: linear-gradient(45deg,#ffcebc,#b5360d);*/
 }
 .profile-pic img{
 	width: 100%;
