@@ -142,7 +142,24 @@ body {
 	border: 1px solid #dfdfdf;
 	margin-top: 40px;
 }
-.more-option {
+.info {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: cent;
+	padding: 0 20px;
+}
+.info .username {
+	width: auto;
+	font-weight: bold;
+	color: #000;
+	font-size: 14px;
+	margin-left: 10px;
+}
+/* optiosn not displaying anymore */
+/*
+.options {
 	aria-label: "More options";
 	color: #262626;
 	fill: #262626;
@@ -150,4 +167,13 @@ body {
 	role: img;
 	viewBox: 0 0 24 24;
 	width: 24;
+} */
+
+.info .options {
+/*	height: 10px; */
+	cursor: pointer;
+}
+.info .user {
+	display: flex;
+	align-items: center;
 }
