@@ -15,3 +15,4 @@ CI         | Gitlab
 ### Tools
 
 https://www.photopea.com/
+https://youtu.be/f9fqiNM30ik?t=1134

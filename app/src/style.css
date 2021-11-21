@@ -169,10 +169,19 @@ body {
 }
 
 .info .options {
-	height: 10px;
+/*	height: 10px; */
 	cursor: pointer;
 }
 .info .user {
 	display: flex;
 	align-items: center;
+}
+.info .profile-pic {
+	height: 40px;
+	width: 40px;
+	padding: 0;
+	background: none;
+}
+.info .profile-pic img {
+	border: none;
 }
