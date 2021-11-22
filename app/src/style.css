@@ -23,7 +23,7 @@ body {
 	display: flex;
 	justify-content: center;
 	padding: 5px 0;
-	background: linear-gradient(to top, #fff, #fbe5dd);
+	background: linear-gradient(to top, #fff, #fafafa);
 }
 .nav-wrapper {
 	width: 70%;
@@ -147,7 +147,7 @@ body {
 	height: 60px;
 	display: flex;
 	justify-content: space-between;
-	align-items: cent;
+	align-items: center;
 	padding: 0 20px;
 }
 .info .username {
@@ -157,19 +157,16 @@ body {
 	font-size: 14px;
 	margin-left: 10px;
 }
-/* optiosn not displaying anymore */
 .options {
-	aria-label: "More options";
 	color: #262626;
 	fill: #262626;
-	height: 24;
-	role: img;
-	viewBox: 0 0 24 24;
-	width: 24;
+	height: 24px;
+	width: 24px;
 }
-
+.option-container {
+	margin-left: auto;
+}
 .info .options {
-/*	height: 10px; */
 	cursor: pointer;
 }
 .info .user {
