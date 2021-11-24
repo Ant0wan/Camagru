@@ -1,6 +1,7 @@
 # Camagru
 
  A web application for sharing pictures.
+![demo]("/miniature.png")
 
 ### Stack
 
