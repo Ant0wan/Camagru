@@ -246,9 +246,10 @@ body {
 }
 .reaction-wrapper .icon {
 	height: 25px;
-	margin: 0;
+	margin: 0px;
 	margin-right: 20px;
 }
 .reaction-wrapper .icon.save {
+	margin: 0px;
 	margin-left: auto;
 }
