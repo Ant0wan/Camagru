@@ -137,7 +137,7 @@ body {
 }
 .post {
 	width: 100%;
-	height: 600px;
+	height: auto;
 	background: #fff;
 	border: 1px solid #dfdfdf;
 	margin-top: 40px;
@@ -181,4 +181,59 @@ body {
 }
 .info .profile-pic img {
 	border: none;
+}
+.post-content {
+	width: 100%;
+	padding: 20px;
+}
+.post-image {
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+}
+.likes {
+	font-weight: bold;
+}
+.description {
+	margin: 10px 0;
+	font-size: 14px;
+	line-height: 20px;
+}
+.description span {
+	font-weight: bold;
+	margin-right: 10px;
+}
+.post-time {
+	color: rgba(0,0,0,0.5);
+	font-size: 12px;
+}
+.comment-wrapper {
+	width: 100%;
+	height: 50px;
+	border-radius: 1px solid #dfdfdf;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.comment-wrapper .icon {
+	height: 30px;
+}
+.comment-box {
+	width: 80%;
+	height: 100px;
+	border: none;
+	outline: none;
+	font-size: 14px;
+}
+.comment-btn {
+	width: 70px;
+	height: 100%;
+	font-weight: bold;
+	background: none;
+	border: none;
+	outline: none;
+	text-transform: capitalize;
+	font-size: 15px;
+	color: rgba(var(--d69,0,149,246),1);
+	opacity: 0.5; /* Apply only when not comment written */
 }
