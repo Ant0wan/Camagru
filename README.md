@@ -1,7 +1,8 @@
 # Camagru
 
  A web application for sharing pictures.
-![demo]("/miniature.png")
+ 
+![demo](/miniature.png)
 
 ### Stack
 
@@ -16,5 +17,5 @@ CI         | Gitlab
 ### Tools
 
 https://www.photopea.com/
+
 https://youtu.be/f9fqiNM30ik?t=1134
-file:///home/antoine/Downloads/IMG_2666.JPG
