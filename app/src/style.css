@@ -226,7 +226,8 @@ body {
 	outline: none;
 	font-size: 14px;
 }
-.comment-btn {
+.comment-btn,
+.action-btn {
 	width: 70px;
 	height: 100%;
 	font-weight: bold;
@@ -283,10 +284,17 @@ body {
 	font-weight: 500;
 	font-size: 14px;
 	color: #000;
+	text-align: left;
 }
 .sub-text {
 	color: rgba(0,0,0,0.5);
-	font-size: 12px;
-	font-weight: 500;
+	font-size: 14px;
+	font-weight: 400;
 	margin-top: 5px;
+}
+.action-btn {
+	opacity: 1;
+	font-weight: 700;
+	font-size: 12px;
+	text-align: right;
 }
