@@ -1,14 +1,14 @@
 # Camagru
 
- A web application for sharing pictures.
- 
+A web application for sharing pictures.
+
 ![demo](/miniature.png)
 
 ### Stack
 
 Element    |  Stack
 ---        | ---
-App        | HTML, CSS, JavaScript
+App        | HTML, CSS, JavaScript => CSS only web app
 Server     | Rust
 Cluster    | K3d
 CD         | ArgoCD
