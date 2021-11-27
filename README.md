@@ -2,12 +2,11 @@
 <br />
 <div align="center">
   <img src="logo.png" alt="Logo" width="80" height="80">
-  <h3 align="center">Camagru</h3>
+  <h1 align="center">Camagru</h3>
   <p align="center">
     A web application for sharing pictures.
   </p>
 </div>
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -36,8 +35,6 @@
 </details>
 
 
-![demo](/miniature.png)
-
 ### Stack
 
 Element    |  Stack
@@ -53,3 +50,6 @@ CI         | Gitlab
 https://www.photopea.com/
 
 https://youtu.be/f9fqiNM30ik?t=1134
+
+### Screenshot
+<div align="left"><img src="miniature.png" alt="miniature" width="500" height="500"></div>
