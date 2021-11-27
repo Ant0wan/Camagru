@@ -36,6 +36,7 @@ body {
 .brand-img {
 	height: 100%;
 	margin-top: 1px;
+/*	filter: brightness(0) invert(1); */
 }
 .search-box {
 	position: absolute;
