@@ -296,5 +296,31 @@ body {
 	opacity: 1;
 	font-weight: 700;
 	font-size: 12px;
-	text-align: right;
+/*	text-align: right;*/
+}
+.suggestion-text {
+	font-size: 14px;
+	color: rgba(0,0,0,0.5);
+	font-weight: 700;
+	margin: 20px 0;
+}
+@media (max-width: 110px) {
+	.right-col, .seach-box {
+		display: none;
+	}
+	.nav-wrapper,
+	.wrapper {
+		width: 90%;
+	}
+	.wrapper {
+		display: block;
+	}
+}
+@media (max-width: 500px) {
+	.nav-items .icon {
+		margin: 0 5px;
+	}
+	.post-image {
+		height: 300px;
+	}
 }
