@@ -1,3 +1,5 @@
+![Camagru](/logo.png)
+
 # Camagru
 
 A web application for sharing pictures.
