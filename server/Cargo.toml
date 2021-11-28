@@ -3,6 +3,3 @@ name = "camagru"
 authors = ["Antoine Barthelemy <antoine@linux.com>"]
 version = "0.1.0"
 edition = "2021"
-
-[dependencies]
-rocket = { version = "0.5.0-rc.1", features = ["secrets", "tls", "json"] }
