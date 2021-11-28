@@ -35,11 +35,13 @@
 </details>
 
 
+This project is also a dependeny of Inception Of Things - part3. V1 and V2 are specials used by Inception-Of-Things. They aimed at being deployed by ArgoCD.
+
 ### Stack
 
 Element    |  Stack
 ---        | ---
-App        | HTML, CSS, JavaScript => CSS only web app
+App        | Vanilla HTML, CSS, JavaScript
 Server     | Rust
 Cluster    | K3d
 CD         | ArgoCD
