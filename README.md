@@ -47,9 +47,9 @@ CI         | Gitlab
 
 ### Tools
 
-https://www.photopea.com/
+icons: https://www.flaticon.com/
+photoshop online: https://www.photopea.com/
 
-https://youtu.be/f9fqiNM30ik?t=1134
 
 ### Screenshot
 <div align="left"><img src="miniature.png" alt="miniature" width="500" height="500"></div>
