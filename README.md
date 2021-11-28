@@ -55,3 +55,19 @@ photoshop online: https://www.photopea.com/
 
 ### Screenshot
 <div align="left"><img src="miniature.png" alt="miniature" width="500" height="500"></div>
+
+
+### Insane Micro-Service Architecture
+
+```shell
+
+	 ---------           ----------
+	| Stories | ----- > | Homepage |
+	 ---------           ----------
+                                ^
+	 -------                |
+	| Posts | ---------------
+	 -------
+
+	etc.. for each nav/page elements
+```
