@@ -59,6 +59,8 @@ photoshop online: https://www.photopea.com/
 
 ### Insane Micro-Service Architecture
 
+Following the principles from  `Building Micro-frontends: Scaling Teams and Projects Empowering Developers`
+
 ```shell
 
 	 ---------           ----------
