@@ -355,3 +355,12 @@ h2 {
 .broken {
 	margin-top: 30px;
 }
+.notice-box {
+	min-height: 200px;
+	background: #262626;
+/*	display: flex; */
+	align-items: center;
+/*	justify-content: center; */
+	margin: 0;
+	width: 400px;
+}
