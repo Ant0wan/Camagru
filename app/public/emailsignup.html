@@ -1,20 +1,3 @@
-<!--
-By signing up, you agree to our Terms . Learn how we collect, use and share your data in our Data Policy and how we use cookies and similar technology in our Cookies Policy .
-
-
-Mobile Number or Email
-
-Full Name
-
-Username
-
-Password
-
-Next
-
-Have an account? Log in
--->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,8 +10,31 @@ Have an account? Log in
 <body>
     <div class="container">
         <form id="form" class="form"></form>
-	<h2>Sign up to see photos and videos from your friends.</h2>
-
+            <h2>Sign up to see photos and videos from your friends.</h2>
+            <text>By signing up, you agree to our Terms . Learn how we collect, use and share your data in our Data Policy and how we use cookies and similar technology in our Cookies Policy .
+            </text>
+            <div class="form-control">
+                <label for="Mobile Number or Email"></label>
+                <input type="text" id="mailphone-signup" placeholder="Mobile Number or Email">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="Full Name"></label>
+                <input type="text" id="fullname-signup" placeholder="Full Name">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="Username"></label>
+                <input type="text" id="username-signup" placeholder="Username">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="Password"></label>
+                <input type="text" id="password-signup" placeholder="Password">
+                <small>Error message</small>
+            </div>
+            Next
+            Have an account? <a href="/login">Log in</a>
     </div>
     <script src="form.js"></script>
 </body>
