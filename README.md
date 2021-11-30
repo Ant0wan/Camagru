@@ -47,6 +47,16 @@ Cluster    | K3d
 CD         | ArgoCD
 CI         | Gitlab
 
+### ToDo
+
+- [x] CSS Instagram simple copy
+- [ ] Dynamic website with JavaScript
+- [ ] Simple server in Rust
+- [ ] File hierarchy
+- [ ] CI with Gitlab runners on K3d
+- [ ] ArgoCD configuration files
+
+
 ### Tools
 
 icons: https://www.flaticon.com/
